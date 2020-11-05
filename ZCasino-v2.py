@@ -75,4 +75,6 @@ while continuer_partie is True :
         if Quitter == 2:
             print("Vous quittez la table. Vous sortez de la table avec votre butin :", Fortune, "$. A la prochaine !")
             continuer_partie = False
+        if Quitter == 1:
+            continuer_partie = True
       
